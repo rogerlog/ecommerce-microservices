@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableBinding(value = {
         CheckoutCreatedSource.class,
-//        PaymentPaidSink.class
+        PaymentPaidSink.class
 })
 public class StreamingConfig {
 }
